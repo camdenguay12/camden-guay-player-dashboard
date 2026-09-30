@@ -10,16 +10,20 @@
     <h2>Granite State Baseball League</h2>
     <p>Merrimack Brewers | #30</p>
 
-    <h2>2026 Batting Statistics</h2>
+  <h2 id="season-title">Player Statistics</h2>
+
+<label for="stat-type">Stats:</label>
+<select id="stat-type">
+    <option value="batting">Batting</option>
+    <option value="pitching">Pitching</option>
+</select>
 
 <label for="season-select">Season:</label>
-
 <select id="season-select"></select>
 
 <div id="current-stats"></div>
-
 <div id="detailed-stats"></div>
-
+    
     <script src="script.js"></script>
 </body>
 </html>
