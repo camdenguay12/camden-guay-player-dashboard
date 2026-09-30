@@ -1,48 +1,32 @@
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Camden Guay | GSBL Stats</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-
 <body>
-<header class="player-header">
 
-    <div class="team-logo">
-        <img src="images/brewerslogo.jpg" alt="Merrimack Brewers Logo">
-    </div>
+    <nav class="navbar">
+        <a href="index.html">HOME</a>
+        <a href="hitting.html">HITTING</a>
+        <a href="pitching.html">PITCHING</a>
+        <a href="fielding.html">FIELDING</a>
+    </nav>
 
-    <div class="player-info">
+    <main class="home">
+
+        <img class="home-team-logo"
+             src="images/brewerslogo.jpg"
+             alt="Merrimack Brewers Logo">
+
         <h1>Camden Guay</h1>
-        <h2>Granite State Baseball League</h2>
-        <p>Merrimack Brewers | #30</p>
 
-        <img class="gsbl-logo"
+        <h2>Merrimack Brewers | #30</h2>
+
+        <img class="home-league-logo"
              src="images/gsbllogo.jpg"
              alt="Granite State Baseball League Logo">
-    </div>
 
-    <div class="player-photo">
-        <img src="images/hittingCG.jpeg"
-             alt="Camden Guay playing baseball">
-    </div>
+        <div class="home-photos">
+            <img src="images/hittingCG.jpeg" alt="Camden hitting">
+            <img src="images/pitchingCG.JPEG" alt="Camden pitching">
+            <img src="images/fieldingCG.JPEG" alt="Camden fielding">
+        </div>
 
-</header>
+    </main>
 
-  <h2 id="season-title">Player Statistics</h2>
-
-<label for="stat-type">Stats:</label>
-<select id="stat-type">
-    <option value="batting">Batting</option>
-    <option value="pitching">Pitching</option>
-</select>
-
-<label for="season-select">Season:</label>
-<select id="season-select"></select>
-
-<div id="current-stats"></div>
-<div id="detailed-stats"></div>
-    
-    <script src="script.js"></script>
 </body>
-</html>
