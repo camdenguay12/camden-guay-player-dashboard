@@ -9,7 +9,13 @@ fetch("stats.json")
         const statsDiv = document.getElementById("current-stats");
 
         // Put the data onto the webpage
-        statsDiv.innerHTML = `
+statsDiv.innerHTML = `
+    <h3>${current.AVG.toFixed(3)} AVG</h3>
+    <h3>${current.OBP.toFixed(3)} OBP</h3>
+    <h3>${current.SLG.toFixed(3)} SLG</h3>
+    <h3>${current.OPS.toFixed(3)} OPS</h3>
+`;
+
 const detailsDiv = document.getElementById("detailed-stats");
 
 detailsDiv.innerHTML = `
@@ -22,7 +28,6 @@ detailsDiv.innerHTML = `
     <p>Runs: ${current.R}</p>
     <p>Stolen Bases: ${current.SB}</p>
 `;
-        `;
     })
     .catch(error => {
         console.error("Error loading stats:", error);
