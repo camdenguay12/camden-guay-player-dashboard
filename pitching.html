@@ -1,1 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Camden Guay | Pitching</title>
+    <link rel="stylesheet" href="style.css">
+</head>
 
+<body>
+
+<nav class="navbar">
+    <a href="index.html">HOME</a>
+    <a href="hitting.html">HITTING</a>
+    <a href="pitching.html">PITCHING</a>
+    <a href="fielding.html">FIELDING</a>
+</nav>
+
+<header class="player-header">
+
+    <div class="team-logo">
+        <img src="images/pitchingCG.jpg" alt="Camden Guay pitching">
+    </div>
+
+    <div class="player-info">
+        <h1>Camden Guay</h1>
+        <h2>Pitching Statistics</h2>
+        <p>Merrimack Brewers | #30</p>
+    </div>
+
+    <div class="player-photo">
+        <img src="images/pitchingCG.jpeg" alt="Camden Guay pitching">
+    </div>
+
+</header>
+
+<main class="dashboard">
+
+    <h2 id="season-title">Pitching Statistics</h2>
+
+    <label for="stat-type">Stats:</label>
+    <select id="stat-type">
+        <option value="pitching">Pitching</option>
+    </select>
+
+    <label for="season-select">Season:</label>
+    <select id="season-select"></select>
+
+    <div id="current-stats"></div>
+    <div id="detailed-stats"></div>
+
+</main>
+
+<script src="script.js"></script>
+
+</body>
+</html>
