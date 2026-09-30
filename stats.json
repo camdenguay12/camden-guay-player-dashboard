@@ -1,0 +1,143 @@
+{
+  "player": "Camden Guay",
+  "number": 30,
+  "position": "SS",
+
+  "batting": [
+    {
+      "season": "Summer 2023",
+      "team": "Merrimack Brewers",
+      "G": 11,
+      "PA": 46,
+      "AB": 41,
+      "R": 8,
+      "H": 14,
+      "2B": 6,
+      "3B": 1,
+      "HR": 0,
+      "RBI": 5,
+      "BB": 4,
+      "SO": 6,
+      "SB": 6,
+      "AVG": 0.341,
+      "OBP": 0.391,
+      "SLG": 0.537,
+      "OPS": 0.928
+    },
+    {
+      "season": "Fall 2023",
+      "team": "Merrimack Musky Drunk Ducks",
+      "G": 6,
+      "PA": 23,
+      "AB": 23,
+      "R": 6,
+      "H": 9,
+      "2B": 0,
+      "3B": 0,
+      "HR": 0,
+      "RBI": 7,
+      "BB": 0,
+      "SO": 3,
+      "SB": 5,
+      "AVG": 0.391,
+      "OBP": 0.391,
+      "SLG": 0.391,
+      "OPS": 0.783
+    },
+    {
+      "season": "Summer 2025",
+      "team": "Merrimack Brewers",
+      "G": 9,
+      "PA": 30,
+      "AB": 28,
+      "R": 4,
+      "H": 6,
+      "2B": 1,
+      "3B": 0,
+      "HR": 0,
+      "RBI": 5,
+      "BB": 2,
+      "SO": 13,
+      "SB": 6,
+      "AVG": 0.214,
+      "OBP": 0.267,
+      "SLG": 0.250,
+      "OPS": 0.517
+    },
+    {
+      "season": "Fall 2025",
+      "team": "Merrimack Musky Drunk Ducks",
+      "G": 7,
+      "PA": 17,
+      "AB": 14,
+      "R": 4,
+      "H": 5,
+      "2B": 0,
+      "3B": 0,
+      "HR": 0,
+      "RBI": 4,
+      "BB": 3,
+      "SO": 2,
+      "SB": 1,
+      "AVG": 0.357,
+      "OBP": 0.471,
+      "SLG": 0.357,
+      "OPS": 0.828
+    },
+    {
+      "season": "Summer 2026",
+      "team": "Merrimack Brewers",
+      "G": 12,
+      "PA": 33,
+      "AB": 30,
+      "R": 8,
+      "H": 9,
+      "2B": 2,
+      "3B": 1,
+      "HR": 0,
+      "RBI": 4,
+      "BB": 2,
+      "SO": 4,
+      "SB": 1,
+      "AVG": 0.300,
+      "OBP": 0.364,
+      "SLG": 0.433,
+      "OPS": 0.797
+    }
+  ]
+  ,
+"pitching": [
+  {
+    "season": "Fall 2023",
+    "team": "Merrimack Musky Drunk Ducks",
+    "G": 3, "GS": 3, "W": 1, "L": 2,
+    "SV": 0, "IP": "20.0", "H": 18,
+    "R": 16, "ER": 11, "BB": 14, "SO": 12,
+    "WHIP": 1.60, "ERA": 4.95
+  },
+  {
+    "season": "Summer 2025",
+    "team": "Merrimack Brewers",
+    "G": 6, "GS": 3, "W": 3, "L": 2,
+    "SV": 1, "IP": "27.1", "H": 42,
+    "R": 33, "ER": 25, "BB": 11, "SO": 17,
+    "WHIP": 1.94, "ERA": 8.23
+  },
+  {
+    "season": "Fall 2025",
+    "team": "Merrimack Musky Drunk Ducks",
+    "G": 4, "GS": 2, "W": 1, "L": 2,
+    "SV": 1, "IP": "18.1", "H": 28,
+    "R": 23, "ER": 16, "BB": 8, "SO": 26,
+    "WHIP": 1.96, "ERA": 7.85
+  },
+  {
+    "season": "Summer 2026",
+    "team": "Merrimack Brewers",
+    "G": 9, "GS": 7, "W": 2, "L": 4,
+    "SV": 0, "IP": "48.2", "H": 65,
+    "R": 44, "ER": 22, "BB": 11, "SO": 36,
+    "WHIP": 1.56, "ERA": 4.07
+  }
+]
+}
